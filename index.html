@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LEAHHF</title>
+
+	<link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+	<main>
+		<h1>LEAHHF / Buildroot</h1>
+		<div id="screen_container"></div>
+	</main>
+	<script id="v86wasm" type="application/octet-stream">%v86.wasm%</script>
+	<script id="bios" type="application/octet-stream">%bios%</script>
+	<script id="vga_bios" type="application/octet-stream">%vga_bios%</script>
+	<script id="system_image" type="application/octet-stream">%system_image%</script>
+	<script type="module" src="./src/index.js"></script>
+</body>
+</html>

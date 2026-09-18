@@ -1,0 +1,20 @@
+body {
+    background-color: #111;
+    color: #fff;
+    line-height: 1.5;
+    padding: 10px;
+    font-family: sans-serif
+}
+
+#screen_container {
+    display: block;
+    width: 80ch;
+    height: 25lh;
+
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    outline: 1px solid #555;
+
+    font-family: DejaVu Sans Mono,monospace;
+}

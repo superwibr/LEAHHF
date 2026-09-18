@@ -1,0 +1,13 @@
+{
+  "name": "LEAHHF",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node bin-bundler.js dist/index.html",
+    "dev": "node bin-bundler.js index.html dev.html"
+  },
+  "devDependencies": {
+    "vite": "^6.4.3",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
