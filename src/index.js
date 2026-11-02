@@ -1,5 +1,5 @@
 import { EmbeddedBlob } from "./EmbeddedBlob.js";
-import "./libv86.js";
+import "./libv86.min.js";
 
 const blobCache = {};
 
